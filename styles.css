@@ -1,6 +1,61 @@
-.blue{
-    color: rgba(44, 44, 172, 1);
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    box-sizing :border-box ;
+    font-family: Raleway  ;
+    color: #777;
 }
-.orangered{
-    color:
-orangered}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom:1px solid rgba(255,255,255,.2);
+}
+.main nav li{
+    padding: 0 20%;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 0.6em ;
+    color: azure;
+    text-decoration: none;
+    font-size: large;
+}
+.nav a:hover{
+    color:rgba(255,255,255,.3);
+}
+.orangered {
+    color:orangered
+
+}
+
+
+.main-header{
+    background-color: rgba(0,0,0,.4);
+    background-image: url(Images/cover.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+body{
+    background-color: rgba(245, 239, 239, 0.877);
+}
+.main-footer ul{
+    background-color: rgb(3, 3, 56);
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+.white{
+    color: white;
+}
